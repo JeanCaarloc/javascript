@@ -1,0 +1,15 @@
+iniciar
+    FAZER sorteio, vetorSorteio, usuario, vetorUsuario;
+    ENQUANTO () FAÇA{
+        FAZER sorteio  = Math.random(1,4)
+        ESCREVER sorteio
+        FAZER vetorSorteio.push(sorteio)
+
+        LER usuario
+        FAZER vetorUsuario.push(valor)
+
+        if(vetorSorteio!=vetorUsuario){
+            break
+        }
+    }
+finalizar
