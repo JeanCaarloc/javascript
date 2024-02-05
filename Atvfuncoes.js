@@ -8,15 +8,9 @@ var notas = [
 
 //pegue o numero de notas 1
 function calcularNumeroDeNotas(notas) {
-    var numeroDeNotas = 0;
+    var tamanho = notas.length-1;
 
-    for (var i = 0; i < notas.length; i++) {
-        for (var j = 1; j < notas[i].length; j++) {
-            numeroDeNotas += notas[i][j].length;
-        }
-    }
-
-    return numeroDeNotas;
+    return tamanho;
 }
 
 var resultado = calcularNumeroDeNotas(notas);
